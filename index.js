@@ -22,12 +22,11 @@ class Route {
   }
 
   estimatedTime(peak) {
-    let min;
+    debugger;
     if (peak === true) {
-       min = this.blocksTravelled()/2
+      return this.blocksTravelled()/2
     } else {
-       min = this.blocksTravelled()/3
+      return this.blocksTravelled()/2
     }
-    return min
   }
 }
